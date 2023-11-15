@@ -1,0 +1,77 @@
+Create Example: 
+{'type': 'create', 
+'requestId': '67f18a2d-2e0a-4ef8-ae41-74ee4890ad5e', 
+'widgetId': '8216e47f-ed2d-45df-91e7-8434cb517345', 
+'owner': 'Mary Matthews', 
+'label': 'ZPJOFSGH', 
+'description': 'EHZBSZRNONNPKQQKKSLCPTWROBJWUMSHKJVIPPORLQQJZDKLGFTUPYPWAGSNNCNEVEDAJKRKFW', 
+'otherAttributes': [
+    {'name': 'color'
+    , 'value': 'green'}, 
+    {'name': 'length-unit'
+    , 'value': 'cm'}, 
+    {'name': 'vendor'
+    , 'value': 'XNAJWWKSAJUCKVVGS'}, 
+    {'name': 'note', 
+    'value': 'XDPTZOGZHBYDCHLRNXGELDONRWUTRGWJEULCUBUTCKSHQFEGYFYOLLGAJIEJYPXUQKPLZGMVDMWOLKTHMZDVLSHQTPPMNFVKOGXSPXFFPZZJKHGUJKQNVVPKLTHAARQDFIFBFTHGMLWXMTRNJORHAIIGDQXCGREQQIVCIQTPKIEXWBKSMGJULRJDFAXPGCZZOMFQGLJSOIEJKZSWFHDIDVGHHDKZXLCWKIQXEVYVNNOPWITXKRSWUMBKQEZWBVNFHEGCLTHIQHXXEAYJHYPDZLAZLBIBDLAMUGKOHGHKASKWLAWVRYNZHQHCMTYRZFVRBGLZHQEEGBQZNEMKQFMSCSBUJWRBQVIZAOYOPHB'}]}
+
+
+
+
+
+
+
+
+{'type': 'create', 
+'requestId': '9740a6f7-cfc0-4857-832a-ae28970684b5', 
+'widgetId': 'dbe06de0-47e9-49d0-9505-ef2d50d6bf5c', 
+'owner': 'Mary Matthews', 
+'label': 'NLIWSR', 
+'description': 'HCNHRZEOW', 
+'otherAttributes': [
+    {'name': 'color', 'value': 'red'}, 
+    {'name': 'size', 'value': '115'}, 
+    {'name': 'height-unit', 'value': 'cm'}, 
+    {'name': 'rating', 'value': '1.3086977'}, 
+    {'name': 'vendor', 'value': ''}]}
+
+
+Update Example (The 'creation' of this object is above):
+{'type': 'update', 
+'requestId': '14e3adce-f720-4c16-883d-a72338e15f17', 
+'widgetId': 'dbe06de0-47e9-49d0-9505-ef2d50d6bf5c', 
+'owner': 'Mary Matthews', 
+'label': 'DY', 
+'description': 'VQXDZHAJATWTRVAXJAYCUEHKXJYDZNUTHKDKXYNVVQLRUVETOFGAIVQNLZWJTJROONOMSVG', 
+'otherAttributes': [
+    {'name': 'size-unit', 'value': 'cm'}, 
+    {'name': 'height', 'value': '15'}, 
+    {'name': 'width', 'value': '717'}, 
+    {'name': 'price', 'value': '43.02'}, 
+    {'name': 'quantity', 'value': '104'}, 
+    {'name': 'vendor', 'value': 'WLDUTDQLLKXHQLHPQWW'}, 
+    {'name': 'note', 'value': 'MIDEOCIOLEKAAZTHNQAGSPVNUVWKHEOFBJHARFPNYOLIUBYABYVKKKTZAEZNNVCNVTBVACCEIXMEXKIAHOKRFRBANNWJAIATQXVLXGRERIUEIDOCJRAPSFNMFUBPJVBCNLXCFKTINJAREODJEQWKGR'}]}
+
+
+
+
+
+{'type': 'create', 
+'requestId': '7f576ed8-1c59-484f-92a2-3e91b40774ab', 
+'widgetId': '2fc8cf31-971b-45ad-9a34-80ebb989f706', 
+'owner': 'Henry Hops', 
+'label': 'LCNBJ', 
+'description': 'ITKDUWXHLJSKTSCPBTUZPRFEAWYSCRZQNWANKDHUUTWGQMBSFRRLLNNVLSNMTFNFQIQJDQMEIXPLCSVGTTZDMBWMJQCAVJJE', 
+'otherAttributes': [
+    {'name': 'color', 'value': 'blue'}, 
+    {'name': 'width', 'value': '803'}, 
+    {'name': 'length', 'value': '636'}, 
+    {'name': 'price', 'value': '60.29'}, 
+    {'name': 'vendor', 'value': 'VSBVHSKI'}]}
+
+
+Delete Example(The 'creation' of this object is above):
+{'type': 'delete', 
+'requestId': '8df3eb63-344a-4a90-b8c3-757defb338fe', 
+'widgetId': '2fc8cf31-971b-45ad-9a34-80ebb989f706', 
+'owner': 'Henry Hops'}
