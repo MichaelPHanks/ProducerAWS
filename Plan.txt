@@ -1,0 +1,16 @@
+Before I do the assignment, I can look over Lab 7.1 on the AWS canvas. This consists of the 'Creating Lambda Functions Using the AWS SDK for Python'.
+
+
+
+
+API Gateway:
+    Needs to have only one HTTP Method, namely a POST (puts requests into SQS Queue or S3 Bucket).
+    Should hook up to Lambda (Described below).
+    Seems as if it doesn't need a specific name.
+
+Lambda Function:
+    Going to be in Python (is supported).
+    Should be easy to test.
+    Should pass the JSON serialization of a Widget Request, i.e, a JSON string, as the body of the POST request.
+    The actual event handler should be simple and easy, and most of the logic should be in the helper functions.
+    
