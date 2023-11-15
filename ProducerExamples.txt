@@ -54,6 +54,29 @@ CHANGE EVERYTHING TO DOUBLE QUOTES! (ABOVE)
     {'name': 'vendor', 'value': ''}]}
 
 
+
+
+
+
+{
+  "type": "update",
+  "requestId": "14e3adce-f720-4c16-883d-a72338e15f17",
+  "widgetId": "dbe06de0-47e9-49d0-9505-ef2d50d6bf5c",
+  "owner": "Mary Matthews",
+  "label": "DY",
+  "description": "VQXDZHAJATWTRVAXJAYCUEHKXJYDZNUTHKDKXYNVVQLRUVETOFGAIVQNLZWJTJROONOMSVG",
+  "otherAttributes": [
+    {"name": "size-unit", "value": "cm"},
+    {"name": "height", "value": "15"},
+    {"name": "width", "value": "717"},
+    {"name": "price", "value": "43.02"},
+    {"name": "quantity", "value": "104"},
+    {"name": "vendor", "value": "WLDUTDQLLKXHQLHPQWW"},
+    {"name": "note", "value": "MIDEOCIOLEKAAZTHNQAGSPVNUVWKHEOFBJHARFPNYOLIUBYABYVKKKTZAEZNNVCNVTBVACCEIXMEXKIAHOKRFRBANNWJAIATQXVLXGRERIUEIDOCJRAPSFNMFUBPJVBCNLXCFKTINJAREODJEQWKGR"}
+  ]
+}
+
+
 Update Example (The 'creation' of this object is above):
 {'type': 'update', 
 'requestId': '14e3adce-f720-4c16-883d-a72338e15f17', 
@@ -88,6 +111,21 @@ Update Example (The 'creation' of this object is above):
     {'name': 'vendor', 'value': 'VSBVHSKI'}]}
 
 
+
+{
+  "type": "delete",
+  "requestId": "8df3eb63-344a-4a90-b8c3-757defb338fe",
+  "widgetId": "dbe06de0-47e9-49d0-9505-ef2d50d6bf5c",
+  "owner": "Mary Matthews"
+}
+
+
+{
+  "type": "delete",
+  "requestId": "8df3eb63-344a-4a90-b8c3-757defb338fe",
+  "widgetId": "2fc8cf31-971b-45ad-9a34-80ebb989f706",
+  "owner": "Henry Hops"
+}
 Delete Example(The 'creation' of this object is above):
 {'type': 'delete', 
 'requestId': '8df3eb63-344a-4a90-b8c3-757defb338fe', 
