@@ -60,38 +60,50 @@ def deleteHandler(event):
 
 
 def lambda_handler(event, context):
-    
-    response = {'statusCode': 422,
-        'body': "Type not present in request..."
-    }
-    if 'type' in event:
+
+    response = {"statusCode": 400,"headers": {
+        "Content-Type": "application/json"},
+        'body': "Bad Request"}
+    newEvent = {}
+    if 'body' in event:
+        newEvent = json.loads(event['body'])
+    else:
+        newEvent = event
+
+    if 'type' in newEvent:
         try:
             successful = False
-            if event['type'] == "create":
-                if createHandler(event):
+            if newEvent['type'] == "create":
+                if createHandler(newEvent):
                     successful = True
                 
-            if event['type'] == "delete":
-                if deleteHandler(event):
+            if newEvent['type'] == "delete":
+                if deleteHandler(newEvent):
                     successful = True
                 
-            if event['type'] == "update":
-                if updateHandler(event):
+            if newEvent['type'] == "update":
+                if updateHandler(newEvent):
                     successful = True
             if successful:
                 response = {
-                    'statusCode': 200,
-                    'body': json.dumps({'message': "Correctly sent request"}),
-                }
-            else:
-                response = {'statusCode': 422,
-                    'body': "Required Body not given."
-                }
-            return response
+                    'statusCode': 200,"headers": {
+        "Content-Type": "application/json"},
+        'body':"Success"}
+    
         except Exception as e:
             return {
-            'statusCode': 500,
-            'body': json.dumps({'error': 'Internal Server Error'}),
+            'statusCode': 500,"headers": {
+        "Content-Type": "application/json"
+    },
+            'body': str(e),
         }
+    else:
+        response = {'statusCode': 422,"headers": {
+                    "Content-Type": "application/json"},
+                    'body':"Type not present in request"
+                }
+                
+        return response
+    
 
     return response
