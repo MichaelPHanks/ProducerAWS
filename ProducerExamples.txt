@@ -20,7 +20,25 @@ Create Example:
 
 
 
+{
+    "type": "create",
+    "requestId": "9740a6f7-cfc0-4857-832a-ae28970684b5",
+    "widgetId": "dbe06de0-47e9-49d0-9505-ef2d50d6bf5c",
+    "owner": "Mary Matthews",
+    "label": "NLIWSR",
+    "description": "HCNHRZEOW",
+    "otherAttributes": [
+        {"name": "color", "value": "red"},
+        {"name": "size", "value": "115"},
+        {"name": "height-unit", "value": "cm"},
+        {"name": "rating", "value": "1.3086977"},
+        {"name": "vendor", "value": ""}
+    ]
+}
 
+
+
+CHANGE EVERYTHING TO DOUBLE QUOTES! (ABOVE)
 
 {'type': 'create', 
 'requestId': '9740a6f7-cfc0-4857-832a-ae28970684b5', 
@@ -75,3 +93,15 @@ Delete Example(The 'creation' of this object is above):
 'requestId': '8df3eb63-344a-4a90-b8c3-757defb338fe', 
 'widgetId': '2fc8cf31-971b-45ad-9a34-80ebb989f706', 
 'owner': 'Henry Hops'}
+
+
+
+
+
+
+
+
+
+
+{'type': 'create', 'requestId': '9740a6f7-cfc0-4857-832a-ae28970684b5', 'widgetId': 'dbe06de0-47e9-49d0-9505-ef2d50d6bf5c', 'owner': 'Mary Matthews', 'label': 'NLIWSR', 'description': 'HCNHRZEOW', 'otherAttributes': [{'name': 'color', 'value': 'red'}, {'name': 'size', 'value': '115'}, {'name': 'height-unit', 'value': 'cm'}, {'name': 'rating', 'value': '1.3086977'}, {'name': 'vendor', 'value': ''}]}
+{'type': 'create', 'requestId': 'c115eafd-644f-4790-a2ca-dc8eaa564ec5', 'widgetId': '99faf04a-5486-4c34-a116-16c12889acbc', 'owner': 'John Jones', 'label': 'HBJGKLJ', 'description': 'UUTOQKFZECKDUKSJJUFKOTYVSNZTFDAWVNNSTFFXPEPNCLRZCUCLJJMU', 'otherAttributes': [{'name': 'size', 'value': '954'}, {'name': 'size-unit', 'value': 'cm'}, {'name': 'width', 'value': '805'}, {'name': 'length-unit', 'value': 'cm'}, {'name': 'price', 'value': '15.96'}]}  
